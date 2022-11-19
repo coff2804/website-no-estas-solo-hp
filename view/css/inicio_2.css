@@ -1,0 +1,311 @@
+@media (max-width: 767px){
+    body{
+        background-image: url(../images/adultosMayores.jpg);
+        background-size: 100%;
+        backdrop-filter: blur(6px);
+    }
+
+    .log{
+        display: block;
+        bottom: 120%;
+        left: 230%;
+        position: static;
+        padding-top: 4%;
+        size: 30%;
+        
+        
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 350%;
+        font-family: 'Lobster Two', cursive;
+        padding-bottom: 9%;
+        padding-top: 3%;            
+        margin-bottom: 4%;
+        cursor: default;
+    }
+
+    .btnNoticias{
+        padding: 7.8%;
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        margin-right: 25%;
+        margin-left: 25%;
+        font-size: 30px;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+
+    .btnNoticias:hover{
+        background-color: #092639CC;
+    }
+
+    .btnSobreNosotros{
+        padding: 7.8%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10%;
+        font-size: 30px;
+        position: static;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    .btnSobreNosotros:hover{
+        background-color: #092639CC;
+    }
+
+    footer{
+        margin-top:70%;
+        cursor: default;
+    }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+    body{
+        background-image: url(../images/adultosMayores.jpg);
+        background-size: contain;
+        backdrop-filter: blur(6px);
+    }
+
+    .log{
+        display: block;
+        bottom: 100%;
+        left: 90%;
+        position: fixed;
+        padding-top: 10%;
+        
+        
+        
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Lobster Two', cursive;
+        padding-bottom: 9%;
+        padding-top: 5%;
+        margin-bottom: 2%;
+        cursor: default;
+    }
+
+    .btnNoticias{
+        padding: 7.8%;
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        margin-right: 25%;
+        margin-left: 25%;
+        font-size: 30px;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    .btnNoticias:hover{
+        background-color: #092639CC;
+    }
+
+    .btnSobreNosotros{
+        padding: 7.8%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 9%;
+        padding-bottom: 9%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10%;
+        font-size: 30px;
+        position: static;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+    .btnSobreNosotros:hover{
+        background-color: #092639CC;
+    }
+
+    footer{
+        margin-top: 35.7%;
+        margin-bottom: 1%;
+        cursor: default;
+    }
+
+}
+
+@media (min-width: 991px){
+    body{
+        background-image: url(../images/adultosMayores.jpg);
+        background-size: cover;
+        backdrop-filter: blur(6px);
+        width: auto ;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Lobster Two', cursive;
+        padding-bottom: 9%;
+        cursor: default;
+    }
+    
+    .log{
+        display: block;
+        bottom: 105%;
+        left: 96%;
+        position: fixed;
+    }
+    
+    
+    
+    .btnNoticias{
+        padding: 7.8%;
+        padding-left: 11.4%;
+        padding-right: 11.4%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        margin-right: 3.9%;
+        font-size: 30px;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btnNoticias:hover{
+        background-color: #092639CC;
+    }
+    
+    .btnSobreNosotros{
+        padding: 7.8%;
+        padding-left: 7%;
+        padding-right: 7%;
+        background-color: #135279CC;
+        border-radius: 50px;
+        font-size: 30px;
+        position: static;
+        font-weight: 900;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btnSobreNosotros:hover{
+        background-color: #092639CC;
+    }
+    
+    .botones{
+        
+        margin-top:5.4%;
+        text-align: center;
+        
+    }
+    
+    footer{
+        margin-top: 19%;
+        cursor: default;
+        padding-bottom: .8%;
+    }
+}
+
+
+
+/**
+
+body{
+    background-image: url(../images/adultosMayores.jpg);
+    background-size: cover;
+    backdrop-filter: blur(6px);
+    margin-bottom: 0%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Lobster Two', cursive;
+    padding-bottom: 9%;
+    cursor: default;
+}
+
+.log{
+    display: block;
+    bottom: 100%;
+    left: 96%;
+    position: fixed;
+}
+
+
+
+.btnNoticias{
+    padding: 7.8%;
+    padding-left: 11.4%;
+    padding-right: 11.4%;
+    background-color: #135279CC;
+    border-radius: 50px;
+    margin-right: 3.9%;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.btnNoticias:hover{
+    background-color: #092639CC;
+}
+
+.btnSobreNosotros{
+    padding: 7.8%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: #135279CC;
+    border-radius: 50px;
+    font-size: 30px;
+    position: static;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+}
+
+.btnSobreNosotros:hover{
+    background-color: #092639CC;
+}
+
+.botones{
+    
+    margin-top:5.4%;
+    text-align: center;
+    
+}
+
+footer{
+    margin-top: 16.5%;
+    cursor: default;
+}
+
+*/
+

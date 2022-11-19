@@ -1,0 +1,121 @@
+.l2{
+	text-align: center;
+	color: red;
+}
+.ls{
+text-align: center;
+}
+.tex1{
+	text-align: center;
+	color:white;
+	background-color:black;
+	opacity:0.8;
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:10%;
+	border-radius: 150px;
+
+}.tx1{
+	background-color:black;
+	opacity:0.8;
+	color: white;
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-bottom: -75px;
+	margin-top:95px;
+	margin-left:210px;
+	margin-right:980px;
+	border-radius: 19px;
+}.tx2{
+	background-color:black;
+	opacity:0.8;
+	color: white;
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-bottom: -75px;
+	margin-top:5px;
+	margin-left:910px;
+	margin-right:290px;
+	border-radius: 19px;
+}
+.img1{
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-bottom: -90px;
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:10%;
+	border-radius: 150px;
+	width: 350px; 
+	height: 250px;
+}
+.img2{
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-top:-695px;
+	margin-left:55%;
+	margin-right:10%;
+	border-radius: 150px;
+	width: 350px; 
+	height: 250px;
+	
+	border-radius:150px;
+}
+@media(max-width: 767){
+	.cuerpo{
+		background-image: url("../images/adultosMayores.jpg");
+		background-size: cover;
+		backdrop-filter: blur(5px);
+		margin-bottom: 0%;
+		width:1500px; 
+		height: 689px; 
+	}
+}
+.cuerpo{
+
+
+	background-image: url("../images/adultosMayores.jpg");
+	background-size: cover;
+	backdrop-filter: blur(5px);
+	margin-bottom: 0%;
+	width:1500px; 
+	height: 689px;
+   
+}
+.info{
+	text-align:center;
+	background-color:black;
+	opacity:0.8;
+	padding:40px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:10%;
+	border-radius: 5px;
+	color: white;
+	font-size: 29px;
+}
+.botones{
+	text-align:center;
+	background-color:black;
+	opacity:0.8;
+	padding:30px;
+	padding-top:10px;
+	padding-bottom:14px;
+	margin-top:5px;
+	margin-left:-20px;
+	margin-right:1380px;
+	border-radius: 45px;
+	font-size: 29px;
+}.btn{
+	text-decoration: none;
+	color: white;
+}

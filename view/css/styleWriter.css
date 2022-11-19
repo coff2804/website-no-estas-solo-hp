@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+html {
+    background: lightblue;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+
+
+article{
+    background: lightblue; 
+}
+body {
+    font-family:  sans-serif, 'Overpass';
+    font-weight: normal;
+    font-size: 100%;
+    color: #000000;
+    text-align: center;
+    
+    margin: 0;
+    background: lightblue;
+}
+.menu{
+	/*list-style: none;
+	padding: 0;
+	background: lightblue;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+    
+*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 242, 242);
+    padding: 0px 20px;
+    box-shadow: 0px 0px 20px 0px rgb(138, 136, 136);
+
+   
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+.col-md-8{
+    margin: 0px auto;
+}
+
+.table{
+    text-align: center;
+}
+#area {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+    text-align: center;
+    width: 100%;
+    
+    padding:150px 350px 350px 350px;
+    box-sizing: border-box;
+}
+#contenido {
+    position:relative;
+     
+      bottom:300px;
+}
+
+@media all and (max-width: 775px)
+{
+   
+  #login {
+        margin: 0 auto;
+    }
+    #area {
+        margin: 0 auto;
+    
+        
+    }
+    .letra{
+        margin: 0 auto;
+        
+    }
+    
+    
+}
+

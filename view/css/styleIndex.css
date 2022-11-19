@@ -1,0 +1,10 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1d2122;
+    text-align: center;
+    
+    margin: 0;
+    background-color: #97B5BD;
+}

@@ -1,0 +1,165 @@
+/* efectos por defecto */
+body {
+  font-family: "Overpass", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  color: #171a1b;
+  text-align: center;
+
+  margin: 0;
+  background-color:#719192 ;
+}
+/* efectos para el contenedor de pantalla completa */
+#contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+
+  background-image: url(../images/fondo_difuminado_login.jpg) 100% no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* formulario de login */
+
+#login {
+  width: 100%;
+  max-width: 320px;
+  min-width: 320px;
+  padding: 30px 30px 50px 30px;
+  background-color:  rgb(158, 193, 205);
+  height: 500px;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+
+  box-sizing: border-box;
+
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+#login label {
+  display: block;
+  font-family: "Overpass", sans-serif;
+  font-size: 120%;
+  color: #020303;
+
+  margin-top: 15px;
+}
+
+#login input {
+  font-family: "Overpass", sans-serif;
+  font-size: 110%;
+  color: #040404;
+}
+#derecho {
+  /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+
+  text-align: center;
+  width: 100%;
+
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+
+  padding: 20px 20px 20px 50px;
+  box-sizing: border-box;
+}
+
+.titulo {
+  font-size: 300%;
+  color: #dfcdc3;
+}
+
+/* seccion de la derecha */
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+@media all and (max-width: 775px) {
+  #login {
+    margin: 0 auto;
+  }
+
+  #derecho {
+    padding: 20px 20px 20px 20px;
+  }
+
+  #login label {
+    text-align: left;
+  }
+}
+
+
+.bt2, .bt1{
+  position: relative;
+  background-color:rgb(160, 175, 201);
+  top: 20px;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+
+  border-radius: 5px ;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+ 
+}
+
+.bt1:hover{
+
+
+  background-color:rgb(200, 215, 237);
+
+}
+.bt2:hover{
+
+
+  background-color:rgb(200, 215, 237);
+
+}
+
+
+
+#loginform{
+
+  position: relative;
+  top:90px;
+
+}
+
+
+.inp1, .inp2{
+
+  width: 250px;
+  height: 35px;
+  border-radius: 5px ;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+}
+
+.in{
+
+  position: relative;
+  top:70px;
+  font-size: 20px;
+}
+
+.tit{
+
+  position: relative;
+  top: 30px;
+}
